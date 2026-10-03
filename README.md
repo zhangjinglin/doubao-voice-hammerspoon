@@ -48,3 +48,7 @@ chmod +x ./install.sh
 - `SETTLE_DELAY`：结束后延迟多久再切，默认 0.3 秒
 - `FALLBACK_OUTPUT`：当前输出设备不支持软件静音时（常见于 HDMI/DP 显示器），
   自动切到这个可控设备并静音，结束后再切回来，默认 `Mac mini Speakers`
+
+## 致谢
+
+本项目由 Muse Spark 1.3 Free 强力驱动完成。
