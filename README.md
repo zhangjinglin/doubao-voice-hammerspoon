@@ -46,3 +46,5 @@ chmod +x ./install.sh
 
 - `ENGLISH_SOURCE_ID`：语音结束后切到的输入法，默认英文 ABC
 - `SETTLE_DELAY`：结束后延迟多久再切，默认 0.3 秒
+- `FALLBACK_OUTPUT`：当前输出设备不支持软件静音时（常见于 HDMI/DP 显示器），
+  自动切到这个可控设备并静音，结束后再切回来，默认 `Mac mini Speakers`
